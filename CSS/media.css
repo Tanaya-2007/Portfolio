@@ -9,11 +9,13 @@ nav .fas
     #header
     {
         background-image: url("../images/phone-background.png");
+        background-position: center;
+        background-size: cover;
                 
     }   
     .header-text
     {
-        margin-top: 100%;
+        margin-top: 380px;
         font-size: 16px;
     }
     .header-text h1
@@ -79,3 +81,12 @@ nav .fas
         font-size: 14px;
     }
 }
+
+@media only screen and (max-width:320px)
+{
+    .header-text
+    {
+        margin-top: 140%;
+    }
+}
+
